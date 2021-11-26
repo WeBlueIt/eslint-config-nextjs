@@ -6,7 +6,7 @@ WeBlueIt ESLint configuration package
 
 Install dev-dependencies
 
-```shell
+```bash
 npm i --save-dev --save-exact \
     @next/eslint-plugin-next@^12.0.4 \
     eslint@^7.32.0 \
