@@ -1,2 +1,3 @@
-# eslint-js
-Main JavaScript ESLint rules
+# eslint-config-weblueit
+
+WeBlueIt ESLint configuration package

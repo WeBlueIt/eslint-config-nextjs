@@ -1,0 +1,38 @@
+{
+  "name": "@weblueit/eslint-config-weblueit",
+  "version": "1.0.0",
+  "description": "WeBlueIt ESLint configuration package",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --no-cache ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeBlueIt/eslint-config-weblueit.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeBlueIt/eslint-config-weblueit/issues"
+  },
+  "homepage": "https://github.com/WeBlueIt/eslint-config-weblueit#readme",
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "19.0.1",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0"
+  }
+}
