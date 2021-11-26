@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/WeBlueIt/eslint-config-weblueit#readme",
   "peerDependencies": {
+    "@next/eslint-plugin-next": "^12.0.4",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.1",
     "eslint-plugin-import": "^2.25.3",
@@ -28,6 +29,7 @@
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "12.0.4",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "19.0.1",
     "eslint-plugin-import": "2.25.3",
