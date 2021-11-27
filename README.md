@@ -19,7 +19,7 @@ npm i --save-dev --save-exact \
     eslint-plugin-react@^7.27.1 \
     eslint-plugin-react-hooks@^4.3.0 \
     prettier@^2.5.0 \
-    github:WeBlueIt/eslint-config-weblueit#1.0.0
+    github:WeBlueIt/eslint-config-nextjs#1.0.0
 ```
 
 Create ESLint configuration file .eslintrc.js extending from
