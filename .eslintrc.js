@@ -19,9 +19,10 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/function-component-definition': [2, {
-      namedComponents: 'function-declaration',
-    }],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'function-declaration' },
+    ],
     // Not enforced
     'react/prop-types': 0,
     'react/jsx-filename-extension': 0,
