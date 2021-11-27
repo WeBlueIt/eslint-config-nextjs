@@ -1,10 +1,10 @@
-# Weblueit lint rules
+# WeBlueIt ESLint rules (NextJS)
 
-WeBlueIt ESLint configuration package
+WeBlueIt ESLint configuration package for NextJS projects.
 
 ### Usage
 
-Install required dependencies
+Install required dependencies:
 
 ```bash
 npm i --save-dev --save-exact \
@@ -23,7 +23,7 @@ npm i --save-dev --save-exact \
 ```
 
 Create ESLint configuration file .eslintrc.js extending from
-`@weblueit/eslint-config-weblueit`
+`@weblueit/eslint-config-weblueit`:
 
 ```javascript
 // eslintrc.js
@@ -33,7 +33,7 @@ module.exports = {
 
 ```
 
-Create Prettier configuration file .prettierrc.js
+Create Prettier configuration file .prettierrc.js:
 
 ```javascript
 // prettierrc.js
