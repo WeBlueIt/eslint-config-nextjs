@@ -7,19 +7,7 @@ WeBlueIt ESLint configuration package for NextJS projects.
 Install required dependencies:
 
 ```bash
-npm i --save-dev --save-exact \
-    @next/eslint-plugin-next@^12.0.4 \
-    eslint@^7.32.0 \
-    eslint-config-airbnb@^19.0.1 \
-    eslint-config-prettier@^8.3.0 \
-    eslint-config-next@^12.0.4 \
-    eslint-plugin-import@^2.25.3 \
-    eslint-plugin-jsx-a11y@^6.5.1 \
-    eslint-plugin-prettier@^4.0.0 \
-    eslint-plugin-react@^7.27.1 \
-    eslint-plugin-react-hooks@^4.3.0 \
-    prettier@^2.5.0 \
-    github:WeBlueIt/eslint-config-nextjs#1.0.0
+npm i --save-dev github:WeBlueIt/eslint-config-nextjs#1.0.1
 ```
 
 Create ESLint configuration file .eslintrc.js extending from
