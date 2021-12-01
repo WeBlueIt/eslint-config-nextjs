@@ -1,6 +1,6 @@
 {
   "name": "@weblueit/eslint-config-nextjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WeBlueIt ESLint configuration package for NextJS projects.",
   "main": "index.js",
   "scripts": {
