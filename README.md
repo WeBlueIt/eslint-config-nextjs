@@ -7,7 +7,7 @@ WeBlueIt ESLint configuration package for NextJS projects.
 Install required dependencies:
 
 ```bash
-npm i --save-dev github:WeBlueIt/eslint-config-nextjs#1.0.1
+npm i --save-dev @weblueit/eslint-config-nextjs
 ```
 
 Create ESLint configuration file .eslintrc.js extending from
