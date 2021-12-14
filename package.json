@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WeBlueIt/eslint-config-weblueit.git"
+    "url": "git+https://github.com/WeBlueIt/eslint-config-nextjs.git"
   },
   "keywords": [
     "eslint",
@@ -16,9 +16,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WeBlueIt/eslint-config-weblueit/issues"
+    "url": "https://github.com/WeBlueIt/eslint-config-nextjs/issues"
   },
-  "homepage": "https://github.com/WeBlueIt/eslint-config-weblueit#readme",
+  "homepage": "https://github.com/WeBlueIt/eslint-config-nextjs#readme",
   "peerDependencies": {
     "@next/eslint-plugin-next": "^12.0.4",
     "eslint": "^7.32.0",
