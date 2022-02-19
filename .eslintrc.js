@@ -24,6 +24,7 @@ module.exports = {
       { namedComponents: 'function-declaration' },
     ],
     // Not enforced
+    'import/prefer-default-export': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': 0,
     'react/jsx-props-no-spreading': 0,
