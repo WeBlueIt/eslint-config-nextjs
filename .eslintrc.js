@@ -21,7 +21,10 @@ module.exports = {
   rules: {
     'react/function-component-definition': [
       2,
-      { namedComponents: 'function-declaration' },
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
     ],
     // Not enforced
     'import/prefer-default-export': 0,
