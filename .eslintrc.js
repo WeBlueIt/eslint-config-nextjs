@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'no-console': [1, { allow: ['warn', 'error'] }],
     'react/function-component-definition': [
       1,
       {
