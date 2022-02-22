@@ -20,10 +20,10 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/function-component-definition': [
-      2,
+      1,
       {
         namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
+        unnamedComponents: 'function-expression',
       },
     ],
     // Not enforced
