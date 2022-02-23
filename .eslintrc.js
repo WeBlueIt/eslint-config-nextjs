@@ -19,14 +19,25 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'no-console': [1, { allow: ['warn', 'error'] }],
     'react/function-component-definition': [
-      2,
-      { namedComponents: 'function-declaration' },
+      1,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'function-expression',
+      },
     ],
     // Not enforced
     'import/prefer-default-export': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': 0,
     'react/jsx-props-no-spreading': 0,
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        moduleDirectory: ['./src'],
+      },
+    },
   },
 }
