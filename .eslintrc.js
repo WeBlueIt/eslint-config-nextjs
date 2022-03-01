@@ -36,7 +36,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        moduleDirectory: ['./src'],
+        moduleDirectory: ['./node_modules', './src'],
       },
     },
   },
